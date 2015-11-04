@@ -13,7 +13,7 @@ module.exports = function (grunt) {
     replace: {
       bower: {
         src: ['index.js'],
-        dest: 'lib/waterline-criteria.js',
+        dest: 'lib/offshore-criteria.js',
         replacements: [{
           from: 'module.exports',
           to: 'window.WC'
@@ -29,8 +29,8 @@ module.exports = function (grunt) {
 
     uglify: {
       bower: {
-        src: 'lib/waterline-criteria.js',
-        dest: 'lib/waterline-criteria.min.js'
+        src: 'lib/offshore-criteria.js',
+        dest: 'lib/offshore-criteria.min.js'
       }
     }
   });
