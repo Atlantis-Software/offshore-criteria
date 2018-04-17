@@ -1,6 +1,12 @@
 Offshore-Criteria
 =======================
 
+[![npm version](https://badge.fury.io/js/offshore-criteria.svg)](https://www.npmjs.com/offshore-criteria)
+[![Build Status](https://travis-ci.org/Atlantis-Software/offshore-criteria.svg?branch=master)](https://travis-ci.org/Atlantis-Software/offshore-criteria)
+[![Coverage Status](https://coveralls.io/repos/github/Atlantis-Software/offshore-criteria/badge.svg?branch=master)](https://coveralls.io/github/Atlantis-Software/offshore-criteria?branch=master)
+[![NSP Status](https://nodesecurity.io/orgs/atlantis/projects/6603af66-d2c6-4801-89d6-4ccd7f0615e1/badge)](https://nodesecurity.io/orgs/atlantis/projects/6603af66-d2c6-4801-89d6-4ccd7f0615e1)
+[![Dependencies Status](https://david-dm.org/Atlantis-Software/offshore-criteria.svg)](https://david-dm.org/Atlantis-Software/offshore-criteria)
+
 Helper module designed for adapters which communicate with key/value stores such as [Sails-Disk](https://github.com/balderdashy/sails-disk), [Sails-Memory](https://github.com/balderdashy/sails-memory), and [sails-redis](https://github.com/balderdashy/sails-redis) (i.e. they already implement the `semantic` interface, but need to implement the `queryable` interface)
 
 
