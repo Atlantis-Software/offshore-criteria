@@ -10,3 +10,5 @@ nbproject
 npm-debug.log
 .tmp
 bower_components
+.nyc_output/
+package-lock.json
